@@ -259,7 +259,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
                         ),
                         InlineKeyboardButton(
                             text="ᴜᴘᴅᴀᴛᴇꜱ",
-                            url=f"https://t.me/AbishnoiMF",
+                            url=f"https://t.me/rimurubotsnetwork",
                         ),
                     ],
                     [
