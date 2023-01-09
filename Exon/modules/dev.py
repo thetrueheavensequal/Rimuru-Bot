@@ -53,5 +53,5 @@ application.add_handler(ALLOWGROUPS_HANDLER)
 application.add_handler(LEAVE_HANDLER)
 
 
-__mod_name__ = "𝐃ᴇᴠ"
+__mod_name__ = "ᴅᴇᴠs"
 __handlers__ = [LEAVE_HANDLER, ALLOWGROUPS_HANDLER]
