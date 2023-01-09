@@ -66,7 +66,7 @@ async def addsudo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> str:
     )
 
     log_message = (
-        f"#𝐒𝐔𝐃𝐎\n"
+        f"#sᴜᴅᴏ\n"
         f"<b>ᴀᴅᴍɪɴ:</b> {mention_html(user.id, html.escape(user.first_name))}\n"
         f"<b>ᴜsᴇʀ:</b> {mention_html(user_member.id, html.escape(user_member.first_name))}"
     )
@@ -104,7 +104,7 @@ async def removesudo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> str:
             json.dump(data, outfile, indent=4)
 
         log_message = (
-            f"#𝐔𝐍𝐒𝐔𝐃𝐎\n"
+            f"#ᴜɴsᴏᴅᴏ\n"
             f"<b>ᴀᴅᴍɪɴ:</b> {mention_html(user.id, html.escape(user.first_name))}\n"
             f"<b>ᴜsᴇʀ:</b> {mention_html(user_member.id, html.escape(user_member.first_name))}"
         )
@@ -194,7 +194,7 @@ application.add_handler(SUDO_HANDLER)
 application.add_handler(SUDOLIST_HANDLER)
 application.add_handler(DEVLIST_HANDLER)
 
-__mod_name__ = "ᴅᴇᴠs"
+__mod_name__ = "ᴅɪsᴀsᴛᴇʀs"
 __handlers__ = [
     SUDO_HANDLER,
     SUDOLIST_HANDLER,
