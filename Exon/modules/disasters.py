@@ -194,7 +194,7 @@ application.add_handler(SUDO_HANDLER)
 application.add_handler(SUDOLIST_HANDLER)
 application.add_handler(DEVLIST_HANDLER)
 
-__mod_name__ = "𝐃ᴇᴠs"
+__mod_name__ = "ᴅᴇᴠs"
 __handlers__ = [
     SUDO_HANDLER,
     SUDOLIST_HANDLER,
