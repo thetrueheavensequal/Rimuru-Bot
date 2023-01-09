@@ -656,7 +656,7 @@ __help__ = """
 
 """
 
-__mod_name__ = "𝐅ɪʟᴛᴇʀs"
+__mod_name__ = "ғɪʟᴛᴇʀs"
 
 
 FILTER_HANDLER = CommandHandler("filter", filters, block=False)
