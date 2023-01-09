@@ -232,7 +232,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
             await asyncio.sleep(0.4)
             await lol.delete()
             await update.effective_message.reply_sticker(
-                "ᴄᴀᴀᴄᴀɢǫᴀᴀx𝟶ᴄʙᴛᴄʏ_ᴡᴀᴄᴀ𝟶ʙᴊᴜᴠᴏᴘɪɴᴛᴊᴏʟ𝟺ғᴀʜᴍǫᴋᴜᴇᴋʜʙ𝟶ᴄɴǫᴀᴄɢǫᴀᴅɢɢxᴀᴄᴘᴏᴘᴠ𝟹ᴏʟғᴛʙ𝟼ʟǫǫ"
+                "CAACAgQAAx0CbtCy_wACA3dju_1scyg38TIwlI-KUHemhhASwQACgQADgGXACPOpv3OLFtb6LQQ"
             )
             await update.effective_message.reply_photo(
                 START_IMG,
