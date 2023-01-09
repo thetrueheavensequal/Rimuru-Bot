@@ -1015,7 +1015,7 @@ application.add_handler(SET_TITLE_HANDLER)
 application.add_handler(ADMIN_REFRESH_HANDLER)
 application.add_handler(ADMIN_CALLBACK_HANDLER)
 
-__mod_name__ = "ADMINS"
+__mod_name__ = "ᴀᴅᴍɪɴs"
 __command_list__ = [
     "adminlist",
     "admins",
