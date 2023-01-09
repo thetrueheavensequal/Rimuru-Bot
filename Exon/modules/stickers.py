@@ -833,7 +833,7 @@ __help__ = """
 • /stickers*:* ғɪɴᴅ sᴛɪᴄᴋᴇʀs ғᴏʀ ɢɪᴠᴇɴ ᴛᴇʀᴍ ᴏɴ ᴄᴏᴍʙᴏᴛ sᴛɪᴄᴋᴇʀ ᴄᴀᴛᴀʟᴏɢᴜᴇ
 """
 
-__mod_name__ = "𝐒ᴛɪᴄᴋᴇʀs"
+__mod_name__ = "sᴛɪᴄᴋᴇʀs"
 
 
 STICKERID_HANDLER = DisableAbleCommandHandler("stickerid", stickerid, block=False)
