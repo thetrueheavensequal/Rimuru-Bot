@@ -262,7 +262,7 @@ application.add_handler(REMOVE_CLEAN_BLUE_TEXT_GLOBAL_HANDLER)
 application.add_handler(LIST_CLEAN_BLUE_TEXT_HANDLER)
 application.add_handler(CLEAN_BLUE_TEXT_HANDLER, BLUE_TEXT_CLEAN_GROUP)
 
-__mod_name__ = "𝐂ʟᴇᴀɴ"
+__mod_name__ = "ᴄʟᴇᴀɴᴇʀ"
 __handlers__ = [
     SET_CLEAN_BLUE_TEXT_HANDLER,
     ADD_CLEAN_BLUE_TEXT_HANDLER,
