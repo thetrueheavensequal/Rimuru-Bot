@@ -24,7 +24,7 @@ class Config(object):
     EVENT_LOGS = int(getenv("EVENT_LOGS", "-1001859171071"))
     MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://plumblossomsword:Qn57AqxG3GRIu9IP@komi.zc6e9si.mongodb.net/?retryWrites=true&w=majority")
     DB_NAME = getenv("DB_NAME", "EXON_2")
-    DATABASE_URL = getenv("DATABASE_URL", "postgresql://plumblossomsword:sp981pldPRqLliU4K4WRD1LMglcccSxy@dpg-cetfm01gp3jmgl0rjuq0-a.frankfurt-postgres.render.com/telegram_cwo0")
+    DATABASE_URL = getenv("DATABASE_URL", "postgresql://plumblossomsword:jmppEmTPgd5lJYoAZ039qKvxoS3hdBDI@dpg-cetvhvla4990mi84rpug-a.singapore-postgres.render.com/telegram_wbmv")
 
     # ɴᴏ ᴇᴅɪᴛ ᴢᴏɴᴇ
     if DATABASE_URL.startswith("postgres://"):
