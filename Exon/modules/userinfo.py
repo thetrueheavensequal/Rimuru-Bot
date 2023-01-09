@@ -282,7 +282,7 @@ application.add_handler(GIFID_HANDLER)
 application.add_handler(INFO_HANDLER)
 
 
-__mod_name__ = "𝐈ɴғᴏ"
+__mod_name__ = "ɪɴғᴏ"
 __command_list__ = ["info"]
 __handlers__ = [
     GIFID_HANDLER,
