@@ -80,7 +80,7 @@ async def ping(update: Update, context: ContextTypes.DEFAULT_TYPE):
     uptime = get_readable_time((time.time() - StartTime))
 
     await message.edit_text(
-        "𝗣𝗢𝗡𝗚 🥀!!\n"
+        "𝗣𝗢𝗡𝗚 ✨💙✨!!\n"
         "<b>ᴛɪᴍᴇ ᴛᴀᴋᴇɴ:</b> <code>{}</code>\n"
         "<b>sᴇʀᴠɪᴄᴇ ᴜᴘᴛɪᴍᴇ:</b> <code>{}</code>".format(telegram_ping, uptime),
         parse_mode=ParseMode.HTML,
