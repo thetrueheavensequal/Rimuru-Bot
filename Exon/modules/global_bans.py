@@ -528,7 +528,7 @@ application.add_handler(UNGBAN_HANDLER)
 application.add_handler(GBAN_LIST)
 application.add_handler(GBAN_STATUS)
 
-__mod_name__ = "𝐀-sᴘᴀᴍ"
+__mod_name__ = "ɢ-ʙᴀɴ"
 __handlers__ = [GBAN_HANDLER, UNGBAN_HANDLER, GBAN_LIST, GBAN_STATUS]
 
 if STRICT_GBAN:  # enforce GBANS if this is set
