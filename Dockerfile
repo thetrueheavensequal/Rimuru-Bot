@@ -1,4 +1,4 @@
-FROM Abishnoi/ExonRobot-python:latest
+FROM Void-Great-Emperor/rimuruxbot-python:latest
 
 RUN  git clone https://github.com/Void-Great-Emperor/rimuruxbot -b main  /root/ExonRobot
 RUN  mkdir  /root/rimuruxbot/bin/
