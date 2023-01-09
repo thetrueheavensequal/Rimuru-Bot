@@ -18,7 +18,7 @@ from telegram.error import BadRequest, Forbidden
 from telegram.ext import Application
 from telethon import TelegramClient, events
 from telethon.sessions import MemorySession
-
+import config as Config
 try:
     from config import *
 except:
