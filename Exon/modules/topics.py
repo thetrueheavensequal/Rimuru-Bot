@@ -57,7 +57,7 @@ from Exon.modules.log_channel import loggable
 #                 await message.reply_text(f"Successfully removed the old topic ({topic_chat}) chat for actions, You can set new one now.")
 #                 log_message = (
 #                     f"<b>{html.escape(chat.title)}:</b>\n"
-#                     f"#𝐃𝐄𝐋𝐀𝐂𝐓𝐈𝐎𝐍𝐓𝐎𝐏𝐈𝐂\n"
+#                     f"#ᴅᴇʟᴀᴄᴛɪᴏɴᴛᴏᴘɪᴄ\n"
 #                     f"<b>ᴀᴅᴍɪɴ:</b> {mention_html(user.id, user.first_name)}\n"
 #                     f"<b>ᴛᴏᴘɪᴄ ɪᴅ:</b>{topic_chat}"
 #                 )
@@ -102,7 +102,7 @@ async def create_topic(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 )
                 log_message = (
                     f"<b>{html.escape(chat.title)}:</b>\n"
-                    f"#𝐍𝐄𝐖𝐓𝐎𝐏𝐈𝐂\n"
+                    f"#ɴᴇᴡᴛᴏᴘɪᴄ\n"
                     f"<b>ᴀᴅᴍɪɴ:</b> {mention_html(user.id, user.first_name)}\n"
                     f"<b>ᴛᴏᴘɪᴄ ɴᴀᴍᴇ:</b> {topic.name}\n"
                     f"<b>ᴛᴏᴘɪᴄ ɪᴅ:</b> {topic.message_thread_id}"
@@ -131,7 +131,7 @@ async def delete_topic(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     await message.reply_text(f"Succesfully deleted {args[0]}")
                     log_message = (
                         f"<b>{html.escape(chat.title)}:</b>\n"
-                        f"#𝐃𝐄𝐋𝐓𝐎𝐏𝐈𝐂\n"
+                        f"#ᴅᴇʟᴛᴏᴘɪᴄ\n"
                         f"<b>ᴀᴅᴍɪɴ:</b> {mention_html(user.id, user.first_name)}\n"
                         f"<b>ᴛᴏᴘɪᴄ ɪᴅ:</b> {args[0]}"
                     )
@@ -162,7 +162,7 @@ async def close_topic(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     await message.reply_text(f"sᴜᴄᴄᴇsғᴜʟʟʏ ᴄʟᴏsᴇᴅ {args[0]}")
                     log_message = (
                         f"<b>{html.escape(chat.title)}:</b>\n"
-                        f"#𝐂𝐋𝐎𝐒𝐄_𝐓𝐎𝐏𝐈𝐂\n"
+                        f"#ᴠʟᴏsᴇ_ᴛᴏᴘɪᴄ\n"
                         f"<b>ᴀᴅᴍɪɴ:</b> {mention_html(user.id, user.first_name)}\n"
                         f"<b>ᴛᴏᴘɪᴄ ɪᴅ:</b> {args[0]}"
                     )
@@ -193,7 +193,7 @@ async def open_topic(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     await message.reply_text(f"Succesfully Opened {args[0]}")
                     log_message = (
                         f"<b>{html.escape(chat.title)}:</b>\n"
-                        f"#𝐎𝐏𝐄𝐍𝐓𝐎𝐏𝐈𝐂\n"
+                        f"#ᴏᴘᴇɴᴛᴏᴘɪᴄ\n"
                         f"<b>ᴀᴅᴍɪɴ:</b> {mention_html(user.id, user.first_name)}\n"
                         f"<b>ᴛᴏᴘɪᴄ ɪᴅ:</b> {args[0]}"
                     )
@@ -209,7 +209,7 @@ async def open_topic(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return ""
 
 
-__mod_name__ = "𝐓ᴏᴘɪᴄs"
+__mod_name__ = "ᴛᴏᴘɪᴄs"
 
 __help__ = """
 ᴛᴇʟᴇɢʀᴀᴍ ɪɴᴛʀᴏᴜᴅᴜᴄᴇᴅ ɴᴇᴡ ᴡᴀʏ ᴏғ ᴍᴀɴᴀɢɪɴɢ ʏᴏᴜʀ ᴄʜᴀᴛ ᴄᴀʟʟᴇᴅ ғᴏʀᴜᴍs (ᴛᴏᴘɪᴄs)
