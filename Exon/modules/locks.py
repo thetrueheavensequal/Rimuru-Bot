@@ -693,7 +693,7 @@ __help__ = """
 • ᴜɴʟᴏᴄᴋɪɴɢ ᴘᴇʀᴍɪssɪᴏɴ *ᴘɪɴ* ᴡɪʟʟ ᴀʟʟᴏᴡ ᴍᴇᴍʙᴇʀs (ɴᴏɴ-ᴀᴅᴍɪɴs) ᴛᴏ ᴘɪɴ ᴀ ᴍᴇssᴀɢᴇ ɪɴ ᴀ ɢʀᴏᴜᴘ
 """
 
-__mod_name__ = "lᴏᴄᴋs"
+__mod_name__ = "ʟᴏᴄᴋs"
 
 LOCKTYPES_HANDLER = DisableAbleCommandHandler("locktypes", locktypes, block=False)
 LOCK_HANDLER = CommandHandler(
