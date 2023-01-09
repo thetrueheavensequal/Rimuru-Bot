@@ -102,7 +102,7 @@ MD_HELP_HANDLER = CommandHandler("markdownhelp", markdown_help, block=False)
 application.add_handler(ECHO_HANDLER)
 application.add_handler(MD_HELP_HANDLER)
 
-__mod_name__ = "𝐄xᴛʀᴀs"
+__mod_name__ = "ᴇxᴛʀᴀs"
 __command_list__ = ["id", "echo"]
 __handlers__ = [
     ECHO_HANDLER,
