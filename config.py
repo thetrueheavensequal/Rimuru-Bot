@@ -20,7 +20,7 @@ class Config(object):
     TOKEN = getenv("TOKEN", "5881951624:AAE9LaaJGXbUIs_xmZGiu4pkHBWNY5_Ip-4")
     OWNER_ID = int(getenv("OWNER_ID", "2064735436"))
     OWNER_USERNAME = getenv("OWNER_USERNAME", "plumblossomsword")
-    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "theoneandonlymurim")
+    SUPPORT_CHAT = "theoneandonlymurim"
     EVENT_LOGS = int(getenv("EVENT_LOGS", "-1001859171071"))
     MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://plumblossomsword:Qn57AqxG3GRIu9IP@komi.zc6e9si.mongodb.net/?retryWrites=true&w=majority")
     DB_NAME = getenv("DB_NAME", "EXON_2")
