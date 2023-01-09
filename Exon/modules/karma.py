@@ -16,7 +16,7 @@ from Exon.modules.sql.mongo.karma_db import (
     update_karma,
 )
 
-regex_upvote = r"^((?i)\+|\+\+|\+1|\++|\+69|thx|thanx|thanks|🖤|❣️|💝|💖|💕|❤|💘|cool|good|👍|baby|thankyou|love|pro)$"
+regex_upvote = r"^((?i)\+|\+\+|\+1|\++|\+69|nice|noice|thx|thanx|thanks|🖤|❣️|💝|💖|💕|❤|💘|cool|good|👍|baby|thankyou|love|pro)$"
 regex_downvote = r"^(\-|\-\-|\-1|👎|💔|noob|weak|fuck off|nub|gey|kid|shit|mf)$"
 
 karma_positive_group = 3
