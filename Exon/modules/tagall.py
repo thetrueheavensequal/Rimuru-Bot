@@ -400,7 +400,7 @@ async def cancel_spam(event):
         return await event.respond("__sᴛᴏᴘᴘᴇᴅ ᴍᴇɴᴛɪᴏɴ.__")
 
 
-__mod_name__ = "𝐓ᴀɢ-Aʟʟ"
+__mod_name__ = "ᴛᴀɢ-ᴀʟʟ"
 __help__ = """
 ❍ /tagalert on & off *:* ᴛᴀɢ ɴᴏᴛɪᴄᴇ ʙʏ ʙᴏᴛ ᴡʜᴇɴ ꜱᴏᴍᴇᴏɴᴇ ᴛᴀɢꜱ ʏᴏᴜ ᴀꜱ @ ʏᴏᴜ ᴡɪʟʟ ʙᴇ ɴᴏᴛɪғɪᴇᴅ
 
