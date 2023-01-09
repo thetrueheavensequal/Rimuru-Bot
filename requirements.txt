@@ -1,3 +1,4 @@
+pep517
 aiohttp==3.8.3
 alphabet-detector==0.0.7
 APScheduler==3.9.1
