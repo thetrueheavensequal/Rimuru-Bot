@@ -91,4 +91,4 @@ async def take_ss(_, message: Message):
 __help__ = """
 » /webss *:* sᴇɴᴅs ᴛʜᴇ sᴄʀᴇᴇɴsʜᴏᴛ ᴏғ ᴛʜᴇ ɢɪᴠᴇɴ ᴜʀʟ.
 """
-__mod_name__ = "ᴡᴇʙsʜᴏᴛ​​"
+__mod_name__ = "ᴡᴇʙss​​"
