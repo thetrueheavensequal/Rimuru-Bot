@@ -295,7 +295,7 @@ application.add_handler(SETTING_HANDLER)
 application.add_handler(REPORT_HANDLER, REPORT_GROUP)
 application.add_handler(ADMIN_REPORT_HANDLER, REPORT_GROUP)
 
-__mod_name__ = "𝐑ᴇᴘᴏʀᴛs"
+__mod_name__ = "ʀᴇᴘᴏʀᴛɪɴɢ"
 
 __handlers__ = [
     (REPORT_HANDLER, REPORT_GROUP),
