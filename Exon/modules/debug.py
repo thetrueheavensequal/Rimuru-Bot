@@ -80,6 +80,6 @@ application.add_handler(DEBUG_HANDLER)
 application.add_handler(LOG_HANDLER)
 application.add_handler(SEND_DEBUG_HANDLER)
 
-__mod_name__ = "𝐃ᴇʙᴜɢ"
+__mod_name__ = "ᴅᴇʙᴜɢ"
 __command_list__ = ["debug"]
 __handlers__ = [DEBUG_HANDLER]
