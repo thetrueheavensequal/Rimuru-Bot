@@ -172,7 +172,7 @@ application.add_handler(SETTINGS_HANDLER)
 application.add_handler(REQUEST_HANDLER, REQUEST_GROUP)
 application.add_handler(HASH_REQUEST_HANDLER)
 
-__mod_name__ = "𝐑ᴇǫᴜᴇsᴛ"
+__mod_name__ = "ʀᴇǫᴜᴇsᴛ"
 __help__ = """
 • /request <ᴄᴏɴᴛᴇɴᴛ>*:*  ʀᴇǫᴜᴇsᴛ ᴄᴏɴᴛᴇɴᴛ ᴛᴏ ᴀᴅᴍɪɴs.
 
