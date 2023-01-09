@@ -20,13 +20,13 @@ async def EXON_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
     if query.data == "EXON_":
         await query.message.edit_caption(
             f"๏ ɪ'ᴍ {BOT_NAME}, ᴀ ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀsɪʟʏ."
-            "\n• I scan ʀᴇsᴛʀɪᴄᴛ ᴜsᴇʀs."
+            "\n• ɪ ᴄᴀɴ ʀᴇsᴛʀɪᴄᴛ ᴜsᴇʀs."
             "\n• ɪ ᴄᴀɴ ɢʀᴇᴇᴛ ᴜsᴇʀs ᴡɪsh ᴄᴜsᴛᴏᴍɪᴢᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇssᴀɢᴇs ᴀɴᴅ ᴇᴠᴇɴ sᴇᴛ ᴀ ɢʀᴏᴜᴘ's ʀᴜʟᴇs."
             "\n• ɪ ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ғʟᴏᴏᴅ sʏsᴛᴇᴍ."
             "\n• ɪ ᴄᴀɴ ᴡᴀʀɴ ᴜsᴇʀs ᴜɴsɪʟ ᴛʜᴇʏ ʀᴇᴀᴄʜ ᴍᴀx ᴡᴀʀɴx, ᴡɪᴛʜ ᴇᴀᴄʜ ᴘʀᴇᴅᴇғɪɴᴇᴅ ᴀᴄᴛɪᴏɴs sᴜᴄʜ ᴀs ʙᴀɴ, ᴍᴜᴛᴇ, ᴋɪᴄᴋ, ᴇᴛᴄ."
             "\n• ɪ ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ ᴋᴇᴇᴘɪɴɢ sʏsᴛᴇᴍ, ʙʟᴀᴄᴋʟɪsᴛs, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇs ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅs."
             "\n• ɪ ᴄʜᴇᴄᴋ ғᴏʀ ᴀᴅᴍɪɴs ᴘᴇʀᴍɪssɪᴏɴs ʙᴇғᴏʀᴇ ᴇxᴇᴄᴜᴛɪɴɢ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ ᴍᴏʀᴇ sᴛᴜғғs"
-            "\n\n_Exᴏɴ ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ GNU ɢᴇɴᴇʀᴀʟ ᴘᴜʙʟɪᴄ ʟɪᴄᴇɴsᴇ v3.0_"
+            "\n\n_ʀɪᴍᴜʀᴜ ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ GNU ɢᴇɴᴇʀᴀʟ ᴘᴜʙʟɪᴄ ʟɪᴄᴇɴsᴇ v3.0_"
             f"\n\n*ᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ʙᴀsɪᴄ ʜᴇʟᴘ ғᴏʀ {BOT_NAME} *.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -65,12 +65,12 @@ async def EXON_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="🏡", callback_data="start_back"),
-                        InlineKeyboardButton(text="🛡️", callback_data="EXON_ADMIN"),
-                        InlineKeyboardButton(text="💳", callback_data="EXON_CREDIT"),
-                        InlineKeyboardButton(text="🕹️", callback_data="EXON_SOURCE"),
+                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="start_back"),
+                        InlineKeyboardButton(text="ᴀᴅᴍɪɴs", callback_data="EXON_ADMIN"),
+                        InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛs", callback_data="EXON_CREDIT"),
+                        InlineKeyboardButton(text="sᴏᴜʀᴄᴇ", callback_data="EXON_SOURCE"),
                         InlineKeyboardButton(
-                            text="🖥️", url=f"http://t.me/{BOT_USERNAME}?start=help"
+                            text="ʜᴇʟᴘ", url=f"http://t.me/{BOT_USERNAME}?start=help"
                         ),
                     ]
                 ]
@@ -100,7 +100,7 @@ async def EXON_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                             text="sᴜᴘᴘᴏʀᴛ", url=f"t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Abishnoi_bots"
+                            text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/rimurubotsnetwork"
                         ),
                     ],
                     [
@@ -113,7 +113,7 @@ async def EXON_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
     elif query.data == "EXON_CREDIT":  # ᴄʀᴇᴅɪᴛ  i ʜᴏᴘᴇ ᴇᴅɪᴛ ɴᴀɪ ʜᴏɢᴀ
         await query.message.edit_caption(
             f"━━━━━━━ *ᴄʀᴇᴅɪᴛ* ━━━━━━━"
-            "\n🛡️ *ᴄʀᴇᴅɪᴛ ꜰᴏʀ ᴇxᴏɴ ʀᴏʙᴏᴛ* 🛡️"
+            "\n✨ *ᴄʀᴇᴅɪᴛ ꜰᴏʀ ᴇxᴏɴ ʀᴏʙᴏᴛ* ✨"
             "\n\nʜᴇʀᴇ ɪꜱ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴀɴᴅ"
             f"\nꜱᴘᴏɴꜱᴏʀ ᴏꜰ [{BOT_NAME}](t.me/{BOT_USERNAME})"
             "\n\nʜᴇ ꜱᴘᴇɴᴛ ᴀ ʟᴏᴛ ᴏꜰ ᴛɪᴍᴇ ꜰᴏʀ"
@@ -123,12 +123,12 @@ async def EXON_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="🏡", callback_data="start_back"),
-                        InlineKeyboardButton(text="🛡️", callback_data="EXON_ADMIN"),
-                        InlineKeyboardButton(text="💳", callback_data="EXON_CREDIT"),
-                        InlineKeyboardButton(text="⚔️", callback_data="EXON_SOURCE"),
+                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="start_back"),
+                        InlineKeyboardButton(text="ᴀᴅᴍɪɴs", callback_data="EXON_ADMIN"),
+                        InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛs", callback_data="EXON_CREDIT"),
+                        InlineKeyboardButton(text="sᴏᴜʀᴄᴇ", callback_data="EXON_SOURCE"),
                         InlineKeyboardButton(
-                            text="🖥️", url=f"http://t.me/{BOT_USERNAME}?start=help"
+                            text="ʜᴇʟᴘ", url=f"http://t.me/{BOT_USERNAME}?start=help"
                         ),
                     ],
                     [
@@ -165,7 +165,7 @@ async def EXON_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ʜᴏᴍᴇ", callback_data="start_back"),
+                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="start_back"),
                         InlineKeyboardButton(text="ᴀᴅᴍɪɴs", callback_data="EXON_ADMIN"),
                         InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛs", callback_data="EXON_CREDIT"),
                         InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"tg://user?id={OWNER_ID}"),
