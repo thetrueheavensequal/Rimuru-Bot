@@ -16,12 +16,12 @@ class Config(object):
     LOGGER = True
 
     API_ID = int(getenv("API_ID", "21927988"))
-    API_HASH = getenv("API_HASH", "e18f720acdff1e5b0ec80616aecd8a5a)
-    TOKEN = getenv("TOKEN", "5881951624:AAGhzP1V6WeTOaXyEgAAxWyR5XxqNNT1PdE")
+    API_HASH = getenv("API_HASH", "e18f720acdff1e5b0ec80616aecd8a5a")
+    TOKEN = getenv("TOKEN", "5881951624:AAFGSJpJ2W3LOM9v0R48ov0fWh6mrhq2SiM")
     OWNER_ID = int(getenv("OWNER_ID", "2064735436"))
     OWNER_USERNAME = getenv("OWNER_USERNAME", "plumblossomsword")
-    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "AbishnoiMF")
-    EVENT_LOGS = int(getenv("EVENT_LOGS", "-1001573019550"))
+    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "theoneandonlymurim")
+    EVENT_LOGS = int(getenv("EVENT_LOGS", ""))
     MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://plumblossomsword:Qn57AqxG3GRIu9IP@komi.zc6e9si.mongodb.net/?retryWrites=true&w=majority")
     DB_NAME = getenv("DB_NAME", "EXON_2")
     DATABASE_URL = getenv("DATABASE_URL", "postgresql://plumblossomsword:sp981pldPRqLliU4K4WRD1LMglcccSxy@dpg-cetfm01gp3jmgl0rjuq0-a.frankfurt-postgres.render.com/telegram_cwo0")
