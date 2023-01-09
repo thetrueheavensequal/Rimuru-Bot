@@ -506,7 +506,7 @@ __help__ = """
  • /strongwarn <on/yes/off/no>*:* ɪғ sᴇᴛ ᴛᴏ ᴏɴ, ᴇxᴄᴇᴇᴅɪɴɢ ᴛʜᴇ ᴡᴀʀɴ ʟɪᴍɪᴛ ᴡɪʟʟ ʀᴇsᴜʟᴛ ɪɴ ᴀ ʙᴀɴ. ᴇʟsᴇ, ᴡɪʟʟ ᴊᴜsᴛ ᴋɪᴄᴋ.
 """
 
-__mod_name__ = "𝐖ᴀʀɴs"
+__mod_name__ = "ᴡᴀʀɴs"
 
 WARN_HANDLER = CommandHandler(
     ["warn", "dwarn"], warn_user, filters=filters.ChatType.GROUPS, block=False
