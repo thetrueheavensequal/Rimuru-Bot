@@ -230,7 +230,7 @@ sᴇᴛᴛɪɴɢ ᴛʜᴇ ʟᴏɢ ᴄʜᴀɴɴᴇʟ ɪs ᴅᴏɴᴇ ʙʏ:
 • ғᴏʀᴡᴀʀᴅɪɴɢ ᴛʜᴇ `/setlog` ᴛᴏ ᴛʜᴇ ɢʀᴏᴜᴘ
 """
 
-    __mod_name__ = "𝐋ᴏɢs"
+    __mod_name__ = "ʟᴏɢs"
 
     LOG_HANDLER = CommandHandler("logchannel", logging, block=False)
     SET_LOG_HANDLER = CommandHandler("setlog", setlog, block=False)
