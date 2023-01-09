@@ -433,7 +433,7 @@ sᴏᴍᴇᴛɪᴍᴇs ʏᴏᴜ ᴊᴜsᴛ ᴡᴀɴᴛ ᴛᴏ ᴀᴅᴅ sᴏᴍ�
 """
 
 
-__mod_name__ = "𝐂ᴏɴɴᴇᴄᴛ"
+__mod_name__ = "ᴄᴏɴɴᴇᴄᴛ"
 
 
 CONNECT_CHAT_HANDLER = CommandHandler("connect", connect_chat, block=False)
