@@ -65,7 +65,7 @@ async def mute(update: Update, context: ContextTypes.DEFAULT_TYPE) -> str:
 
     log = (
         f"<b>{html.escape(chat.title)}:</b>\n"
-        f"#𝐌𝐔𝐓𝐄\n"
+        f"#ᴍᴜᴛᴇ\n"
         f"<b>ᴀᴅᴍɪɴ:</b> {mention_html(user.id, user.first_name)}\n"
         f"<b>ᴜsᴇʀ:</b> {mention_html(member.user.id, member.user.first_name)}"
     )
@@ -136,7 +136,7 @@ async def unmute(update: Update, context: ContextTypes.DEFAULT_TYPE) -> str:
             )
             return (
                 f"<b>{html.escape(chat.title)}:</b>\n"
-                f"#𝐔𝐍𝐌𝐔𝐓𝐄\n"
+                f"#ᴜᴍᴜᴛᴇ\n"
                 f"<b>ᴀᴅᴍɪɴ:</b> {mention_html(user.id, user.first_name)}\n"
                 f"<b>ᴍᴇɴᴛɪᴏɴ:</b> {mention_html(member.user.id, member.user.first_name)}"
             )
@@ -186,7 +186,7 @@ async def temp_mute(update: Update, context: ContextTypes.DEFAULT_TYPE) -> str:
 
     log = (
         f"<b>{html.escape(chat.title)}:</b>\n"
-        f"#𝐓𝐄𝐌𝐏_𝐌𝐔𝐓𝐄𝐃\n"
+        f"#ᴛᴇᴍᴘ_ɴᴜᴛᴇᴅ\n"
         f"<b>ᴀᴅᴍɪɴ:</b> {mention_html(user.id, user.first_name)}\n"
         f"<b>ᴜsᴇʀ:</b> {mention_html(member.user.id, member.user.first_name)}\n"
         f"<b>ᴛɪᴍᴇ:</b> {time_val}"
@@ -251,5 +251,5 @@ application.add_handler(MUTE_HANDLER)
 application.add_handler(UNMUTE_HANDLER)
 application.add_handler(TEMPMUTE_HANDLER)
 
-__mod_name__ = "𝐌ᴜᴛɪɴɢ"
+__mod_name__ = "ᴍᴜᴛɪɴɢ"
 __handlers__ = [MUTE_HANDLER, UNMUTE_HANDLER, TEMPMUTE_HANDLER]
