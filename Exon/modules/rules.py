@@ -141,7 +141,7 @@ __help__ = """
  • /clearrules*:* ᴄʟᴇᴀʀ ᴛʜᴇ ʀᴜʟᴇs ғᴏʀ ᴛʜɪs ᴄʜᴀᴛ.
 """
 
-__mod_name__ = "𝐑ᴜʟᴇs"
+__mod_name__ = "ʀᴜʟᴇs"
 
 GET_RULES_HANDLER = CommandHandler(
     "rules", get_rules, filters=filters.ChatType.GROUPS, block=False
