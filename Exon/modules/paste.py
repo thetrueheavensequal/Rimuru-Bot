@@ -38,7 +38,7 @@ async def paste(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 
-__mod_name__ = "𝐏ᴀsᴛᴇ"
+__mod_name__ = "ᴘᴀsᴛᴇ"
 __help__ = """
  *ᴘᴀsᴛᴇs ᴛʜᴇ ɢɪᴠᴇɴ ғɪʟᴇ ᴀɴᴅ sʜᴏᴡs ʏᴏᴜ ᴛʜᴇ ʀᴇsᴜʟᴛ*
  
