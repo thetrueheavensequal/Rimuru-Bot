@@ -155,5 +155,5 @@ application.add_handler(BL_HANDLER)
 application.add_handler(UNBL_HANDLER)
 application.add_handler(BLUSERS_HANDLER)
 
-__mod_name__ = "𝐁-ᴜsᴇʀs"
+__mod_name__ = "ʙʟ-ᴜsᴇʀs"
 __handlers__ = [BL_HANDLER, UNBL_HANDLER, BLUSERS_HANDLER]
