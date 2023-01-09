@@ -412,7 +412,7 @@ __help__ = """
 •➥ /setfloodmode <ᴀᴄᴛɪᴏɴ ᴛʏᴘᴇ>: ᴄʜᴏᴏsᴇ ᴡʜɪᴄʜ ᴀᴄᴛɪᴏɴ ᴛᴏ ᴛᴀᴋᴇ ᴏɴ ᴀ ᴜsᴇʀ ᴡʜᴏ ʜᴀs ʙᴇᴇɴ ғʟᴏᴏᴅɪɴɢ. ᴏᴘᴛɪᴏɴs: ban/kick/mute/tban/tmute.
  """
 
-__mod_name__ = "𝐀-ғʟᴏᴏᴅ"
+__mod_name__ = "ᴀɴᴛɪ-ғʟᴏᴏᴅ"
 
 FLOOD_BAN_HANDLER = MessageHandler(
     filters.ALL & ~filters.StatusUpdate.ALL & filters.ChatType.GROUPS,
