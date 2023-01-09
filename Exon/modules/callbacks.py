@@ -117,7 +117,7 @@ async def EXON_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
             "\n\nʜᴇʀᴇ ɪꜱ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴀɴᴅ"
             f"\nꜱᴘᴏɴꜱᴏʀ ᴏꜰ [{BOT_NAME}](t.me/{BOT_USERNAME})"
             "\n\nʜᴇ ꜱᴘᴇɴᴛ ᴀ ʟᴏᴛ ᴏꜰ ᴛɪᴍᴇ ꜰᴏʀ"
-            f"\nᴍᴀᴋɪɴɢ [{BOT_NAME}](t.me/Abishnoi1M)"
+            f"\nᴍᴀᴋɪɴɢ [{BOT_NAME}](t.me/plumblossomsword)"
             "\nꜱᴜᴘᴇʀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -134,7 +134,7 @@ async def EXON_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                     [
                         InlineKeyboardButton(
                             text="ᴀʙɪsʜɴᴏɪ",
-                            url="https://t.me/Abishnoi1M",  # ᴄʀᴇᴅɪᴛ ( ɪ ʜᴏᴘᴇ ɴᴏ ᴄʜᴀɴɢᴇ )
+                            url="https://t.me/plumblossomsword",  # ᴄʀᴇᴅɪᴛ ( ɪ ʜᴏᴘᴇ ɴᴏ ᴄʜᴀɴɢᴇ )
                         ),
                         InlineKeyboardButton(
                             text="ᴄʜᴀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
@@ -155,28 +155,28 @@ async def EXON_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
 [ᴩʏᴛʜᴏɴ-ᴛᴇʟᴇɢʀᴀᴍ-ʙᴏᴛ](https://github.com/python-telegram-bot/python-telegram-bot), 
 ᴀɴᴅ ᴜsɪɴɢ [sǫʟᴀʟᴄʜᴇᴍʏ](https://www.sqlalchemy.org) ᴀɴᴅ [ᴍᴏɴɢᴏ](https://cloud.mongodb.com) ᴀs ᴅᴀᴛᴀʙᴀsᴇ.
 
-*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [{BOT_NAME}](https://github.com/Abishnoi69/ExonRobot)
+*ʜᴇʀᴇ ɪsᴍʏ ʀᴇᴘᴏ :* [{BOT_NAME}](https://github.com/Void-Great-Emperor/rimuruxbot)
 
 
-ᴇxᴏɴ ʀᴏʙᴏᴛ ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [ᴍɪᴛ ʟɪᴄᴇɴsᴇ](https://github.com/Abishnoi69/ExonRobot/blob/main/LICENSE).
-© 2022 - 2023 [@ᴀʙɪsʜɴᴏɪᴍғ](https://t.me/AbishnoiMF), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
+ᴇxᴏɴ ʀᴏʙᴏᴛ ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [ᴍɪᴛ ʟɪᴄᴇɴsᴇ](https://github.com/Void-Great-Emperor/rimuruxbot/blob/main/LICENSE).
+© 2022 - 2023 [@ᴀʙɪsʜɴᴏɪᴍғ](https://t.me/plumbloaaomsword), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
 """,
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="🏡", callback_data="start_back"),
-                        InlineKeyboardButton(text="🛡️", callback_data="EXON_ADMIN"),
-                        InlineKeyboardButton(text="💳", callback_data="EXON_CREDIT"),
-                        InlineKeyboardButton(text="🧑‍", url=f"tg://user?id={OWNER_ID}"),
+                        InlineKeyboardButton(text="ʜᴏᴍᴇ", callback_data="start_back"),
+                        InlineKeyboardButton(text="ᴀᴅᴍɪɴs", callback_data="EXON_ADMIN"),
+                        InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛs", callback_data="EXON_CREDIT"),
+                        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"tg://user?id={OWNER_ID}"),
                         InlineKeyboardButton(
-                            text="🖥️", url=f"http://t.me/{BOT_USERNAME}?start=help"
+                            text="ʜᴇʟᴘ", url=f"http://t.me/{BOT_USERNAME}?start=help"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
                             text="ꜱᴏᴜʀᴄᴇ",
-                            url="https://github.com/Abishnoi69/ExonRobot",
+                            url="https://github.com/Void-Great-Emperor/rimuruxbot",
                         ),
                     ],
                 ]
