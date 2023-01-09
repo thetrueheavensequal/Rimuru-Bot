@@ -135,7 +135,7 @@ async def ban(update: Update, context: ContextTypes.DEFAULT_TYPE) -> str:
 
     log = (
         f"<b>{html.escape(chat.title)}:</b>\n"
-        f"#{'S' if silent else ''} _𝐁𝐀𝐍𝐍𝐄𝐃\n"
+        f"#{'S' if silent else ''} _ʙᴀɴɴᴇᴅ\n"
         f"<b>ᴀᴅᴍɪɴ:</b> {mention_html(user.id, html.escape(user.first_name))}\n"
     )
 
@@ -246,7 +246,7 @@ async def temp_ban(update: Update, context: ContextTypes.DEFAULT_TYPE) -> str:
 
     log = (
         f"<b>{html.escape(chat.title)}:</b>\n"
-        "#𝐓𝐄𝐌𝐏 𝐁𝐀𝐍𝐍𝐄𝐃\n"
+        "#ᴛᴇᴍᴘ ʙᴀɴɴᴇᴅ\n"
         f"<b>ᴀᴅᴍɪɴ:</b> {mention_html(user.id, html.escape(user.first_name))}\n"
         f"<b>ᴜsᴇʀ:</b> {mention_html(member.user.id, html.escape(member.user.first_name))}\n"
         f"<b>ᴛɪᴍᴇ:</b> {time_val}"
@@ -338,7 +338,7 @@ async def kick(update: Update, context: ContextTypes.DEFAULT_TYPE) -> str:
         )
         log = (
             f"<b>{html.escape(chat.title)}:</b>\n"
-            f"#𝐊𝐈𝐂𝐊𝐄𝐃\n"
+            f"#ᴋɪᴄᴋᴇᴅ\n"
             f"<b>ᴀᴅᴍɪɴ:</b> {mention_html(user.id, html.escape(user.first_name))}\n"
             f"<b>ᴜsᴇʀ:</b> {mention_html(member.user.id, html.escape(member.user.first_name))}"
         )
@@ -444,7 +444,7 @@ async def unban(update: Update, context: ContextTypes.DEFAULT_TYPE) -> str:
 
     log = (
         f"<b>{html.escape(chat.title)}:</b>\n"
-        f"#𝐔𝐍𝐁𝐀𝐍𝐍𝐄𝐃\n"
+        f"#ᴜɴʙᴀɴɴᴇᴅ\n"
         f"<b>ᴀᴅᴍɪɴ:</b> {mention_html(user.id, html.escape(user.first_name))}\n"
     )
 
@@ -499,7 +499,7 @@ async def selfunban(context: ContextTypes.DEFAULT_TYPE, update: Update) -> str:
 
     log = (
         f"<b>{html.escape(chat.title)}:</b>\n"
-        f"#𝐔𝐍𝐁𝐀𝐍𝐍𝐄𝐃\n"
+        f"#ᴜɴʙᴀɴɴᴇᴅ\n"
         f"<b>ᴜsᴇʀ:</b> {mention_html(member.user.id, html.escape(member.user.first_name))}"
     )
 
@@ -587,7 +587,7 @@ async def bans_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         log = (
             f"<b>{html.escape(chat.title)}:</b>\n"
-            f"#𝐁𝐀𝐍𝐍𝐄𝐃\n"
+            f"#ʙᴀɴɴᴇᴅ\n"
             f"<b>ᴀᴅᴍɪɴ:</b> {mention_html(admin_user.id, html.escape(admin_user.first_name))}\n"
         )
 
@@ -680,7 +680,7 @@ async def bans_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         log = (
             f"<b>{html.escape(chat.title)}:</b>\n"
-            f"#𝐔𝐍𝐁𝐀𝐍𝐍𝐄𝐃\n"
+            f"#ᴜɴʙᴀɴɴᴇᴅ\n"
             f"<b>ᴀᴅᴍɪɴ:</b> {mention_html(admin_user.id, html.escape(admin_user.first_name))}\n"
         )
 
@@ -730,7 +730,7 @@ application.add_handler(ROAR_HANDLER)
 application.add_handler(KICKME_HANDLER)
 application.add_handler(BAN_CALLBACK_HANDLER)
 
-__mod_name__ = "𝐁ᴀɴs"
+__mod_name__ = "ʙᴀɴs"
 __handlers__ = [
     BAN_HANDLER,
     TEMPBAN_HANDLER,
