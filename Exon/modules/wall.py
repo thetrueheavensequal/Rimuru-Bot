@@ -51,4 +51,4 @@ async def wall(_, msg):
 __help__ = """
  /wallpaper blackpink *:* ɢᴇᴛ ᴀ ᴡᴀʟʟᴘᴀᴘᴇʀ
 """
-__mod_name__ = "𝐖ᴀʟʟ"
+__mod_name__ = "ᴡᴀʟʟs"
