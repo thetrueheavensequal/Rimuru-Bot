@@ -354,7 +354,7 @@ if is_module_loaded(FILENAME):
     • /listcmds*:* ʟɪsᴛ ᴀʟʟ ᴘᴏssɪʙʟᴇ ᴛᴏɢɢʟᴇᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs
     """
 
-    __mod_name__ = "𝐃ɪsᴀʙʟᴇ"
+    __mod_name__ = "ᴅɪsᴀʙʟᴇ"
 
 else:
     DisableAbleCommandHandler = CommandHandler
