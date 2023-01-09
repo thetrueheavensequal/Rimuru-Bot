@@ -16,7 +16,7 @@ class Config(object):
     LOGGER = True
 
     API_ID = int(getenv("API_ID", "24833791"))
-    API_HASH = getenv("API_HASH", "42488cb247a33d13d5f97d6839c8e52b)
+    API_HASH = getenv("API_HASH", "42488cb247a33d13d5f97d6839c8e52b")
     TOKEN = getenv("TOKEN", "5881951624:AAE9LaaJGXbUIs_xmZGiu4pkHBWNY5_Ip-4")
     OWNER_ID = int(getenv("OWNER_ID", "2064735436"))
     OWNER_USERNAME = getenv("OWNER_USERNAME", "plumblossomsword")
