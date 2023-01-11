@@ -6,7 +6,7 @@ asyncio==3.4.3
 beautifulsoup4==4.11.1
 bleach==5.0.1
 cachetools==5.2.0
-cloudscraper==1.2.66
+cloudscraper==1.2.68
 dateparser==1.1.5
 emoji==2.2.0
 ffmpeg-python==0.2.0
@@ -28,7 +28,7 @@ TgCrypto==1.2.5
 pillow==9.4.0
 psycopg2-binary==2.9.5
 pyrate-limiter==2.8.5
-pyrogram==2.0.93
+pyrogram==2.0.96
 pymongo[srv]==4.3.3
 python-dotenv==0.21.0
 python-telegram-bot==20.0
