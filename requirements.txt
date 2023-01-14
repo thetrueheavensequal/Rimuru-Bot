@@ -21,7 +21,6 @@ markdown2==2.4.6
 motor==3.1.1
 mutagen==1.46.0
 opencv-python-headless==4.7.0.68
-telegram
 telegraph==2.2.0
 Telethon==1.26.1
 telethon-tgcrypto
@@ -33,7 +32,6 @@ pyrogram==2.0.96
 pymongo[srv]==4.3.3
 python-dotenv==0.21.0
 python-telegram-bot==20.0
-python-telegram-bot[job-queue]
 SQLAlchemy==1.4.46
 webcolors==1.12
 wikipedia==1.4.0
