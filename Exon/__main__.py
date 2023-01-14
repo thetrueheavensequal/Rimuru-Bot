@@ -438,7 +438,7 @@ async def get_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 async def send_settings(
-    chat: Chat int(),
+    chat: Chat=(int | str),
     user: User,
     update: Update,
     context: ContextTypes.DEFAULT_TYPE,
