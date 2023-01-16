@@ -21,7 +21,7 @@ class Config(object):
     OWNER_ID = int(getenv("OWNER_ID", "2064735436"))
     OWNER_USERNAME = getenv("OWNER_USERNAME", "plumblossomsword")
     SUPPORT_CHAT = "theoneandonlymurim"
-    EVENT_LOGS = int(getenv("EVENT_LOGS", "-1001859171071"))
+    EVENT_LOGS = int(getenv("EVENT_LOGS", "1001859171071"))
     MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://plumblossomsword:Qn57AqxG3GRIu9IP@komi.zc6e9si.mongodb.net/?retryWrites=true&w=majority")
     DB_NAME = getenv("DB_NAME", "EXON_2")
     DATABASE_URL = getenv("DATABASE_URL", "postgresql://plumblossomsword:YOHMSYTKcjYLaqioWlyCDRrJZSkSmvQ3@dpg-cevf5782i3mntl1sh6q0-a.frankfurt-postgres.render.com/telegram_postgresql")
